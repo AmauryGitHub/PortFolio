@@ -337,3 +337,31 @@ input:hover{
     -o-transform:scale(1.05); /* Opera */
     transform:scale(1.05);
 }
+
+.boite_veille{
+    display: flex;
+}
+
+.article_veille{
+    display: inline;
+    min-height: 500px;
+    max-height: 500px;
+    background-color: #007bff;
+    box-shadow: 0px 0px 10px #007bff;
+    border-radius: 5px;
+    min-width: 300px;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    margin-bottom: 100px;
+    text-align: center;
+    color: rgb(181, 181, 181);
+}
+
+#bt_veille{
+    margin-top: 20%;
+}
+
+.image_veille{
+    max-width: 300px;
+}
